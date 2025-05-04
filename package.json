@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "openapi-ts": "dotenvx run -f .env.local -- openapi-ts"
   },
   "dependencies": {
     "@hey-api/client-fetch": "^0.10.0",
