@@ -32,6 +32,7 @@ export type RepresentationModelObject = {
 };
 
 export type EntityModelTodo = {
+    id?: number;
     title?: string;
     description?: string;
     completed?: boolean;
