@@ -4,6 +4,20 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This frontend application is part of a full-stack practice project that uses Spring Boot as the backend API. The backend repository can be found at: [https://github.com/ulysses-ck/backend-spring-boot-todo](https://github.com/ulysses-ck/backend-spring-boot-todo)
 
+## API Client
+
+This project uses an OpenAPI TypeScript client generated from the Spring Boot backend's OpenAPI specification. The client is located in `src/client/client.gen.ts` and provides type-safe API calls to the backend. The client is used throughout the application, including in server actions like `src/server/actions/create-todo.action.ts`.
+
+To regenerate the client when the backend API specification changes, run:
+
+```bash
+npm run openapi-ts
+# or
+yarn openapi-ts
+```
+
+This command uses the `openapi-ts` tool to generate TypeScript types and client code from the backend's OpenAPI specification, ensuring type safety and code consistency between the frontend and backend.
+
 ## Getting Started
 
 First, run the development server:
