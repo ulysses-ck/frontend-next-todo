@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) that works with a Spring Boot backend API.
+
+## Project Overview
+
+This frontend application is part of a full-stack practice project that uses Spring Boot as the backend API. The backend repository can be found at: [https://github.com/ulysses-ck/backend-spring-boot-todo](https://github.com/ulysses-ck/backend-spring-boot-todo)
 
 ## Getting Started
 
